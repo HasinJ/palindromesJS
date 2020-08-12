@@ -7,10 +7,10 @@ describe('palindromes', function() {
   it('works with punctuation', function() {
     expect(palindromes('Racecar!')).toEqual(true);
   });
-  xit('works with multiple words', function() {
+  it('works with multiple words', function() {
     expect(palindromes('A car, a man, a maraca.')).toEqual(true);
   });
-  xit('works with multiple words', function() {
+  it('works with multiple words', function() {
     expect(palindromes('Animal loots foliated detail of stool lamina.')).toEqual(true);
   });
   it('doesn\'t just always return true', function() {
